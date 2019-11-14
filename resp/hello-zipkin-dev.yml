@@ -1,8 +1,8 @@
 spring:
   application:
     name: springcloud-hello-zipkin
-    main:
-      allow-bean-definition-overriding: true
+  main:
+    allow-bean-definition-overriding: true
 
 server:
   port: 9411
