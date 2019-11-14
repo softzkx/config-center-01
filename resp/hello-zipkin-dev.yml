@@ -2,7 +2,7 @@ spring:
   application:
     name: springcloud-hello-zipkin
   main:
-    allow-bean-definition-overriding: true
+    allow-bean-definition-overriding: true # 解决The bean 'characterEncodingFilter'
 
 server:
   port: 9411
