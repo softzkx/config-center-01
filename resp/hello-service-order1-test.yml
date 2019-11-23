@@ -2,7 +2,7 @@ spring:
   application:
     name: springcloud-hello-service-order1
   zipkin:
-    base-url: http://localhost:9411
+    base-url: http://192.168.25.133:9411
   cloud:
     loadbalancer:
       retry:
@@ -14,7 +14,7 @@ server:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
+      defaultZone: http://192.168.25.133:8761/eureka/
 
 springcloud-hello-service-user:
   ribbon:
